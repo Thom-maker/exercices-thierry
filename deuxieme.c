@@ -4,15 +4,22 @@
 
 int main(int argc, char *argv[])
 {
-    int longueurChaine = 0;
+    int longueur_mot = 0;
     char mot[100] = "0";
+    //char *cherche_mot;
+    char lettre[1] = "0";
+
     printf("Peux-tu taper un mot ?\n\n");
     scanf("%s", mot);
     printf("Tu viens de taper le mot %s !\n\n", mot);
-        // On récupère la longueur de la chaîne dans longueurChaine
-    longueurChaine = strlen(mot);
-        // On affiche la longueur de la chaîne
-    printf("La chaine %s fait %d caracteres de long", mot, longueurChaine);
-    
-    return 0;
+
+    longueur_mot = strlen(mot);
+    printf("La chaine %s fait %d caracteres de long\n\n", mot, longueur_mot);
+        if (mot != NULL)
+    {
+        printf("Peux-tu taper une lettre à présent ?\n\n");
+        scanf("%s", lettre);
+        printf("Tu viens de taper la lettre %s !\n\n", lettre);
+    }
+        return 0;
 }
