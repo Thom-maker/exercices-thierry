@@ -22,4 +22,5 @@ int main(int argc, char *argv[])
         printf("Tu viens de taper la lettre %s !\n\n", lettre);
     }
         return 0;
+        
 }
