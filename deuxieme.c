@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     char alphabet23[] = "w";
     char alphabet24[] = "x";
     char alphabet25[] = "y";
-    char alphabet26[] = "2";
+    char alphabet26[] = "z";
     char lettre6[] = "n";
     int longueur_mot = 0;
     char mot[100] = "0";
